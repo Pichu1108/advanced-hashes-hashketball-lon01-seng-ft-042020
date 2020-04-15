@@ -129,7 +129,6 @@ end
 # Write code here
 def num_points_scored(player_name)
   data = game_hash
-  new_hash =
   data.each do |home_away, stats|
     stats[:players].each do |player|
       if player[:player_name] == player_name
@@ -142,4 +141,5 @@ end
 
 def shoe_size(player_name)
   data = game_hash
+
 end
