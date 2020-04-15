@@ -142,4 +142,10 @@ end
 def shoe_size(player_name)
   data = game_hash
 
+  data.each do |home_away,stats|
+    stats[:players].each do |player|
+      if
+      end
+    end
+  end
 end
