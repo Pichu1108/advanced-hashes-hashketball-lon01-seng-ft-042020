@@ -200,7 +200,7 @@ end
 
 def big_shoe_rebounds
 data = game_hash
-name =
+name = ""
 max_size = 0
 #First, find the player with the largest shoe size
 #then, return that player's number of rebounds
