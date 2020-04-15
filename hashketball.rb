@@ -133,7 +133,8 @@ def num_points_scored(player_name)
 
   data.each do |home_away, stats|
     stats.each do |team_color_player, stats_tcp|
-      stats_tcp.each do |value|
+      if data[home_away][team_color_player] == :players
+      end
         binding.pry
     end
   end
