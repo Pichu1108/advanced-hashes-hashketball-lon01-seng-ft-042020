@@ -163,8 +163,8 @@ end
 
 def team_names
 data = game_hash
- data.collect do ||
-   
+ data.collect do |home_away,stats|
+
  end
 end
 
