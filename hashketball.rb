@@ -162,7 +162,7 @@ def team_colors(team_name)
 end
 
 def team_names
-data = game_hash
+  data = game_hash
  data.collect do |home_away,stats|
    stats[:team_name]
  end
@@ -170,22 +170,27 @@ data = game_hash
 end
 
 def player_numbers(team_name)
-data = game_hash
+  data = game_hash
 
-player_numbers = []
+  player_numbers = []
 
-data.each do |home_away, stats|
+  data.each do |home_away, stats|
   stats[:players].each do |value|
   if stats[:team_name] == team_name
     player_numbers.push(value[:number])
   end
-end
-end
-player_numbers
+  end
+  end
+  player_numbers
 
 end
 
 
 def player_stats(player_name)
   data = game_hash
+
+  data.each do |home_away,stats|
+    if stats[:players] == player_name
+      return stats[:players]
+  end
 end
