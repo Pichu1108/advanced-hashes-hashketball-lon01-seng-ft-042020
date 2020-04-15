@@ -175,6 +175,7 @@ data = game_hash
 data.each do |home_away, stats|
   stats[:players].each do |value|
   if stats[:team_name] == team_name
+    stats[:number]
     binding.pry
   end
 end
