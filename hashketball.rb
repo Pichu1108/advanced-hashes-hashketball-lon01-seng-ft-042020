@@ -176,6 +176,7 @@ data.each do |home_away, stats|
   stats[:players].each do |value|
   if stats[:team_name] == team_name
     return stats[:number]
+    binding.pry
   end
 end
 
