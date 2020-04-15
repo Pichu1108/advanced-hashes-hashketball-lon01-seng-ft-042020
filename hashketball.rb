@@ -211,7 +211,6 @@ data.each do |home_away, stats|
     if stats2[:shoe] > max_size
       max_size = stats2[:shoe]
       name = stats2[:player_name]
-      binding.pry
     end
   end
 end
