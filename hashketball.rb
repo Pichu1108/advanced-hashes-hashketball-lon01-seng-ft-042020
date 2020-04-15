@@ -188,11 +188,8 @@ end
 
 def player_stats(player_name)
   data = game_hash
-
+  stats = {}
   data.each do |home_away,stats|
-    if stats[:players] == player_name
-      return stats[:players]
-      binding.pry
-    end
+
   end
 end
