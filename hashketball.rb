@@ -209,5 +209,5 @@ data.each do |home_away, stats|
     end
   end
 end
-#
+#then, return that player's number of rebounds
 end
