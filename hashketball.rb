@@ -144,7 +144,8 @@ def shoe_size(player_name)
 
   data.each do |home_away,stats|
     stats[:players].each do |player|
-      if
+      if player[:player_name] == player_name
+        return player[:shoe]
       end
     end
   end
