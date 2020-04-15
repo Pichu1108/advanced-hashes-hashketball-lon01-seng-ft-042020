@@ -133,7 +133,7 @@ def num_points_scored(player_name)
   data.each do |home_away, stats|
     stats.each do |team_color_player, stats_tcp|
       if data[home_away][team_color_player] == :players
-        new_hash.push(data[home_away][team_color_player][:players][:player_name])
+        new_hash.push(data[home_away][team_color_player][:players})
         new_hash
       end
         binding.pry
