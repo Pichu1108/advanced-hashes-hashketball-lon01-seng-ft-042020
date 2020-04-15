@@ -159,6 +159,7 @@ def team_colors(team_name)
     stats[:team_name].each do |colors|
       if stats[:team_name] == team_name
          return stats[:colors]
+       end
     end
   end
 end
