@@ -127,12 +127,12 @@ def game_hash
 end
 
 # Write code here
-def num_points_scored(player_name)
+def num_points_scored(player)
   data = game_hash
   new_hash =
   data.each do |home_away, stats|
     stats[:players].each do |stats_list|
-      if
+      if stats_list[:player_name] == player
     end
   end
 
