@@ -199,5 +199,5 @@ end
 
 
 def big_shoe_rebounds
-
+data = game_hash
 end
