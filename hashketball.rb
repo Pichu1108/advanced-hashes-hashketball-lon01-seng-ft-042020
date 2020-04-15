@@ -204,7 +204,7 @@ max_size = 0
 counter = 0
 data.each do |home_away, stats|
   stats[:players].each do |stats2|
-     while 
+     while
   end
 end
 
