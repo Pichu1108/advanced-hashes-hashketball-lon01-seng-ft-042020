@@ -202,6 +202,9 @@ def big_shoe_rebounds
 data = game_hash
 max_size = 0
 #First, find the player with the largest shoe size
+#then, return that player's number of rebounds
+#Remember to think about return values here.
+
 data.each do |home_away, stats|
   stats[:players].each do |stats2|
     if stats2[:shoe] > max_size
@@ -209,5 +212,5 @@ data.each do |home_away, stats|
     end
   end
 end
-#then, return that player's number of rebounds
+
 end
