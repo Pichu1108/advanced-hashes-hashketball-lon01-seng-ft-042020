@@ -222,8 +222,4 @@ data.each do |home_away, stats|
     end
   end
 end
-
-
-
-
 end
