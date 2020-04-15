@@ -219,7 +219,9 @@ data.each do |home_away, stats|
   stats[:players].each do |stats2|
     if stats2[:player_name] == name
       return stats2[:rebounds]
-
+    end
+  end
+end
 
 
 
