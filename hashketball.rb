@@ -156,7 +156,7 @@ def team_colors(team_name)
   data = game_hash
 
   data.each do |home_away, stats|
-      if stats
+      if stats[:team_name] == team_name
           binding.pry
   end
 end
