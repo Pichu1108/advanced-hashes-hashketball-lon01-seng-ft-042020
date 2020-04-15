@@ -171,5 +171,6 @@ team_names = []
 end
 
 def player_numbers
+data = game_hash
 
 end
