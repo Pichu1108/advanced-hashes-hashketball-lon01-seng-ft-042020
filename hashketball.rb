@@ -200,4 +200,7 @@ end
 
 def big_shoe_rebounds
 data = game_hash
+max_size = 0
+
+
 end
