@@ -158,6 +158,5 @@ def team_colors(team_name)
   data.each do |home_away, stats|
       if stats
           binding.pry
-    end
   end
 end
