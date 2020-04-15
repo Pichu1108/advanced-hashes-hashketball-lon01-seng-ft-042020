@@ -164,7 +164,7 @@ end
 def team_names
 data = game_hash
  data.collect do |home_away,stats|
-
+   stats[:team_name]
  end
 end
 
