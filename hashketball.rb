@@ -131,8 +131,10 @@ def num_points_scored(player_name)
   data = game_hash
   new_hash = {}
 
-  data.each do |home_way, stats|
+  data.each do |home_away, stats|
+    stats.each do |team_color_player, |
 
+    end
   end
 
 end
