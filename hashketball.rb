@@ -174,8 +174,7 @@ data = game_hash
 
 data.each do |home_away, stats|
   if stats[:team_name] == team_name
-    stats[:number].each do |player|
-      if player[:player_name] == player_name
+    stats[:number].each do |number|
         return player[:points]
       end
     end
