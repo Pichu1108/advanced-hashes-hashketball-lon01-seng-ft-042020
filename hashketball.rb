@@ -204,7 +204,8 @@ max_size = 0
 counter = 0
 data.each do |home_away, stats|
   stats[:players].each do |stats2|
-    if stats2[:shoe]
+    if stats2[:shoe] > max_size
+
     end
   end
 end
