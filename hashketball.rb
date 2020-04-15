@@ -161,7 +161,6 @@ def team_colors(team_name)
           return stats[:colors]
           binding.pry
         end
-      end
     end
   end
 end
