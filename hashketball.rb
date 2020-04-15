@@ -177,7 +177,7 @@ player_numbers = []
 data.each do |home_away, stats|
   stats[:players].each do |value|
   if stats[:team_name] == team_name
-    player_numbers.push(stats[:number])
+    player_numbers.push(value[:number])
     binding.pry
   end
 end
