@@ -163,14 +163,12 @@ end
 
 def team_names
 data = game_hash
-team_names = []
-  team_names.push(data[:home][:team_name])
-  team_names.push(data[:away][:team_name])
-
-  team_names
+ data.collect do ||
+ end
 end
 
 def player_numbers
 data = game_hash
+
 
 end
