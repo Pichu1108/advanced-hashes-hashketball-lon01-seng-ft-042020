@@ -127,7 +127,7 @@ def game_hash
 end
 
 # Write code here
-def num_points_scored(player)
+def num_points_scored(player_name)
   data = game_hash
   new_hash =
   data.each do |home_away, stats|
