@@ -203,6 +203,9 @@ data = game_hash
 max_size = 0
 
 data.each do |home_away, stats|
+  stats[:players].each do |stats2|
+
+  end
 
 end
 
