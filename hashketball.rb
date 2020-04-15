@@ -163,7 +163,7 @@ end
 
 def team_names
 data = game_hash
-data.each do |home_away, stats|
-  return stats[:team_name]
-end
+  data.each do |home_away, stats|
+    return stats[:team_name]
+  end
 end
