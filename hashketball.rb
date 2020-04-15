@@ -165,4 +165,5 @@ def team_names
 data = game_hash
 team_names = []
   team_names.push(data[:home][:team_name])
+  team_names.push(data[:home][:team_name])
 end
