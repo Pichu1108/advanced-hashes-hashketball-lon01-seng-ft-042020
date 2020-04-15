@@ -135,7 +135,6 @@ def num_points_scored(player_name)
     stats.each do |team_color_player, stats_tcp|
       stats_tcp.each do |value|
         binding.pry
-      end
     end
   end
 
