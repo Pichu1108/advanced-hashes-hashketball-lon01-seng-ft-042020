@@ -179,6 +179,7 @@ data.each do |home_away, stats|
     binding.pry
   end
 end
+end
 
 
 end
